@@ -1,0 +1,185 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  margin: 0;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 17px;
+  color:white;
+  line-height: 1.6;
+}
+
+#showcase{
+  background-image:url('../img/tm-forest copy.jpg');
+  background-size: cover;
+  background-position: center;
+  height:100vh;
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+  text-align: center;
+  padding: 100px 30px;
+}
+#showcase img{
+  background-image:url("img/OneCommunityLogo.png");
+  background-position: center;
+  height:90px;
+  width:300px;
+  border-radius: 50px;
+}
+.content{
+  position: absolute;
+  top:55%;
+  left:47%;
+  transform:translate(-50%, -50%);
+  color:darkgreen;
+  text-transform: uppercase;
+  font-size: 10px;
+}
+.overlay{
+  position: absolute;
+  top:50px;
+  right:135px;
+  left:446px;
+  bottom:100px;
+  height:175px;
+  width:300px;
+  border-radius: 100px;
+  opacity: 0;
+  transition: .5s ease;
+  background:yellow;
+}
+.tribute-info:hover .overlay{
+  opacity: 1;
+}
+ul{
+  list-style-type: none;
+}
+.header-tabs a{
+  align-self: center;
+  color:white;
+  padding-top: 30px;
+  text-decoration: underline;
+}
+
+.header-tabs a:hover{
+  color:yellow;
+}
+ul{
+  list-style-type: none;
+  line-height: 2.8;
+}
+#showcase p{
+  text-align: center;
+}
+
+#showcase p1{
+  align-self: center;
+  padding: 1px;
+}
+#showcase .button{
+  font-size: 18px;
+  text-decoration: none;
+  color:white;
+  border: white 2px solid;
+  padding: 5px 10px;
+  border-radius: 10px;
+  margin-top: 20px;
+  align-self: center;
+}
+#showcase .button:hover{
+  background: darkgreen;
+  color: white;
+}
+
+#section-a{
+  padding: 10px;
+  background: darkgreen;
+  color: white;
+  text-align: left;
+
+}
+.button-2{
+  font-size:12px;
+  text-decoration: none;
+  background: lightgray;
+  color:darkgreen;
+  border:white 2px solid;
+  border-radius: 10px;
+  align-content: center;
+  padding:5px 10px;
+
+}
+.button-2:hover{
+  background: white;
+  color:darkgreen;
+}
+.button-3{
+  font-size:12px;
+  text-decoration: none;
+  background: lightgray;
+  color:darkgreen;
+  border:black 2px solid;
+  border-radius: 10px;
+  padding:5px 10px;
+
+}
+.button-3:hover{
+  background: darkgreen;
+  color:white;
+}
+
+#section-b{
+  padding: 10px;
+  background: white;
+  color: darkgreen;
+  text-align: left;
+}
+
+
+.float-img{
+  float:left;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  border: solid black 2px;
+  padding: 1px;
+}
+
+#section-c{
+  display: flex;
+}
+
+#section-c .box-1, #section-c .box-3{
+  background: darkgreen;
+  color: white;
+  padding: 20px;
+  text-align: justify;
+}
+#section-c h1{
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-style: solid;
+}
+#section-c .box-2{
+  background: lightgray;
+}
+.box-2 img{
+  border: 100px;
+  border-radius: 300px;
+  height:190px;
+  width: 200px;
+  padding:5px;
+}
+footer{
+  text-align: center;
+  color: darkgray;
+  font-size: 20px;
+  padding-top: 2px;
+}
+#z-photo{
+  width: 30px;
+  height:40px;
+  border-radius: 20px;
+}
